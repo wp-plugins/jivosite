@@ -3,17 +3,19 @@ Contributors: iamdmitrymayorov
 Tags: jivo, jivochat, jivosite, code, chat, admin, javascript
 Requires at least: 3.9.2
 Tested up to: 4.0
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add JivoSite chat to your website without editing your theme files.
+Integrate JivoSite code to your website without editing your theme files.
 
 == Description ==
 
-JivoSite is a professional live chat for websites that was specifically designed to increase online sales. 
+JivoSite (or JivoChat) is a professional live chat for websites that was specifically designed to increase online sales. 
 
-This plugin provides option to install JivoSite on your website without editing your theme files. 
+This plugin provides option to integrate JivoSite on your website without editing your theme.
+
+This is a good practice to use a plugin instead of adding code to your theme files because if you update or change your theme, JivoSite code will still be present on your site.
 
 == Installation ==
 
@@ -24,9 +26,9 @@ This plugin provides option to install JivoSite on your website without editing 
 3. Click **Install Now** on *JivoSite* by Dmitry Mayorov.
 4. Activate the plugin.
 5. Log in to your JivoSite profile at [jivosite.ru](http://jivosite.ru/) or [jivochat.com](http://jivochat.com/).
-6. Copy your *widget id* (See screenshots if you don't know how to get it)
+6. Copy your **widget id** (See [screenshots](https://wordpress.org/plugins/jivosite/screenshots/) for details).
 7. Go back to WordPress admin and navigate to *Settings → JivoSite*.
-8. Paste widget id in the input field.
+8. Paste **widget id** in the input field.
 9. Save settings.
 
 = Uploading in WordPress Dashboard =
@@ -48,21 +50,27 @@ This plugin provides option to install JivoSite on your website without editing 
 
 == Frequently Asked Questions ==
 
-= Why not include JivoSite code directly inside a theme? =
+= Why not include JivoSite code directly to my theme? =
 
 You don't want to put JivoSite code inside your theme because next time you update or change it, JivoSite code will be gone. You should *never* edit theme files.
 
-= Where do I get the widget id? =
+= Where do I get my widget id? =
 
-You can get widget id in your JivoSite admin panel at [jivosite.ru](http://jivosite.ru/) or [jivochat.com](http://jivochat.com/). See screenshots for details.
+You can get **widget id** in your JivoSite admin panel at [jivosite.ru](http://jivosite.ru/) or [jivochat.com](http://jivochat.com/). See [screenshots](https://wordpress.org/plugins/jivosite/screenshots/) for details.
 
 == Screenshots ==
 
-1. Dashboard view of the plugin. 
+1. JivoSite admin view. Copy highlited letters ("XXXXXXXXXX" on the screenshot). This is your **widget id**.
 
-2. Widget id location. Instead of copying all the code, you need to copy just those highlited letters ("XXXXXXXXXX" on the screenshot).
+2. Dashboard view. Paste your **widget id** inside the text field and hit *Save settings*
 
 == Changelog ==
 
+= 0.1.1 =
+* Improvement: Better dashbord look.
+* Improvement: New screenshots.
+* Improvement: Better readme.txt.
+* Improvement: Better transation to Russian.
+
 = 0.1.0 =
-Initial Release
+* Initial Release
