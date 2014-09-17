@@ -70,7 +70,6 @@ You can get **widget id** in your JivoSite admin panel at [jivosite.ru](http://j
 * Improvement: Better dashbord look.
 * Improvement: New screenshots.
 * Improvement: Better readme.txt.
-* Improvement: Better transation to Russian.
 
 = 0.1.0 =
 * Initial Release

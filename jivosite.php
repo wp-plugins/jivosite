@@ -16,7 +16,7 @@
  * Plugin Name:       JivoSite
  * 
  * Description:       Add JivoSite chat to your website without editing your theme files.
- * Version:           0.1.0
+ * Version:           0.1.1
  * Author:            Dmitry Mayorov
  * Author URI:        http://dmitrymayorov.com/
  * License:           GPL-2.0+
