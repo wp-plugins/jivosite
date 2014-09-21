@@ -3,11 +3,11 @@ Contributors: iamdmitrymayorov
 Tags: jivo, jivochat, jivosite, code, chat, admin, javascript
 Requires at least: 3.9.2
 Tested up to: 4.0
-Stable tag: 0.1.1
+Stable tag: 0.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Integrate JivoSite code to your website without editing your theme files.
+Add JivoSite chat to your site without editing your theme.
 
 == Description ==
 
