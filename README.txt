@@ -3,19 +3,19 @@ Contributors: iamdmitrymayorov
 Tags: jivo, jivochat, jivosite, code, chat, admin, javascript
 Requires at least: 3.9.2
 Tested up to: 4.0
-Stable tag: 0.1.2
+Stable tag: 0.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add JivoSite chat to your site without editing your theme.
+With JivoSite WordPress Plugin you can add JivoSite code to your website without editing your theme.
 
 == Description ==
 
-JivoSite (or JivoChat) is a professional live chat for websites that was specifically designed to increase online sales. 
+This plugin provides option to integrate JivoSite code to your website without editing your theme.
 
-This plugin provides option to integrate JivoSite on your website without editing your theme.
+This is a good practice to use a plugin instead of adding code manually, because if you update or change your theme, JivoSite code will still be present on your site.
 
-This is a good practice to use a plugin instead of adding code to your theme files because if you update or change your theme, JivoSite code will still be present on your site.
+Based on the Plugin API, Coding Standards, and Documentation Standards.
 
 == Installation ==
 
@@ -60,11 +60,21 @@ You can get **widget id** in your JivoSite admin panel at [jivosite.ru](http://j
 
 == Screenshots ==
 
-1. JivoSite admin view. Copy highlited letters ("XXXXXXXXXX" on the screenshot). This is your **widget id**.
+1. JivoSite admin view with highlited **widget id**
 
-2. Dashboard view. Paste your **widget id** inside the text field and hit *Save settings*
+2. Highlited letters ("XXXXXXXXXX" on the screenshot) are your **widget id**
+
+3. Dashboard view. Paste your **widget id** inside the text field and hit *Save settings*
 
 == Changelog ==
+
+= 0.1.3 =
+* Improvement: Added 128px icon to assets folder.
+* Improvement: Updated screenshots.
+* Improvement: Minor code improvements.
+
+= 0.1.2 =
+* Improvement: Minor code improvements.
 
 = 0.1.1 =
 * Improvement: Better dashbord look.
