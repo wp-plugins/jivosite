@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       JivoSite
  * Description:       With JivoSite WordPress Plugin you can add JivoSite code to your website without editing your theme.
- * Version:           0.1.3
+ * Version:           0.1.4
  * Author:            Dmitry Mayorov
  * Author URI:        http://dmitrymayorov.com/
  * License:           GPL-2.0+
@@ -28,22 +28,6 @@
 if ( ! defined( 'WPINC' ) ) {
 	die;
 }
-
-/**
- * The code that runs during plugin activation.
- */
-require_once plugin_dir_path( __FILE__ ) . 'includes/class-jivosite-activator.php';
-
-/**
- * The code that runs during plugin deactivation.
- */
-require_once plugin_dir_path( __FILE__ ) . 'includes/class-jivosite-deactivator.php';
-
-/** This action is documented in includes/class-jivosite-activator.php */
-register_activation_hook( __FILE__, array( 'JivoSite_Activator', 'activate' ) );
-
-/** This action is documented in includes/class-jivosite-deactivator.php */
-register_deactivation_hook( __FILE__, array( 'JivoSite_Deactivator', 'deactivate' ) );
 
 /**
  * The core plugin class that is used to define internationalization,
